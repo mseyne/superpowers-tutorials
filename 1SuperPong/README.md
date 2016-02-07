@@ -1,5 +1,5 @@
 # SUPERPOWERS TUTORIAL #1
-#### *Start to learn game development with PONG*
+## *Start to learn game development with PONG*
 *Tutorial series : How to learn to make video games by using Superpowers #1.*
 
 My plan is to provide a tutorial series of game development process as my
@@ -19,7 +19,7 @@ would help to improve this tutorials aimed to the Superpowers community.
 
 *SUPERPOWERS TUTORIAL #2 will be a Tic Tac Toe with IA step by step tutorial*
 
-## Summary :
+## Summary
 
 1. Introduction and Plan the game
     * Introduction to game development
@@ -40,7 +40,7 @@ would help to improve this tutorials aimed to the Superpowers community.
     * Finishing the game.
 5. Final recommendations about this tutorials series
 
-## What we will learn in this tutorial :
+## What we will learn in this tutorial
 
 - To discover how easy it is to become a game developer (it is just about doing it)
 - How to setup a first game project
