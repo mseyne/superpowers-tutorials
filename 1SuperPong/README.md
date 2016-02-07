@@ -1,5 +1,5 @@
-# SUPERPOWERS TUTORIAL #1, start to learn game development with PONG
-
+# SUPERPOWERS TUTORIAL #1
+#### *Start to learn game development with PONG*
 *Tutorial series : How to learn to make video games by using Superpowers #1.*
 
 My plan is to provide a tutorial series of game development process as my
@@ -22,37 +22,37 @@ would help to improve this tutorials aimed to the Superpowers community.
 ## Summary :
 
 1. Introduction and Plan the game
-..* Introduction to game development
-..* Plan of our game
+    * Introduction to game development
+    * Plan of our game
 2. Preparing Superpowers
-..* Building project structure
-..* Loading Game Assets
-..* Building Game Scene
-..* Setting Arcade Bodies
+    * Building project structure
+    * Loading Game Assets
+    * Building Game Scene
+    * Setting Arcade Bodies
 3. Scripting game behavior
-..* Behavior of the paddles.
-..* Behavior of the ball.
-..* Display score points.
+    * Behavior of the paddles.
+    * Behavior of the ball.
+    * Display score points.
 4. Polishing the game
-..* Load Menu Assets
-..* Build Menu Scene
-..* Add sound effect.
-..* Finishing the game.
+    * Load Menu Assets
+    * Build Menu Scene
+    * Add sound effect.
+    * Finishing the game.
 5. Final recommendations about this tutorials series
 
 ## What we will learn in this tutorial :
 
--To discover how easy it is to become a game developer (it is just about doing it)
--How to setup a first game project
--How to create a simple structure for a game and load assets
--How to build a scene with Actors and add components (camera, sprite renderer, text renderer, behavior)
--Code a game with the superpowers API and TypeScript
--..Sup.Actor
--..Sup.Input
--..Sup.ArcadePhysics2D.Body (Sup.ArcadeBody2D)
--..Sup.getActor( string ).getChild( string )
--..Sup.Math.Ray
--..Audio.playsound
--..Sup.loadScene
+- To discover how easy it is to become a game developer (it is just about doing it)
+- How to setup a first game project
+- How to create a simple structure for a game and load assets
+- How to build a scene with Actors and add components (camera, sprite renderer, text renderer, behavior)
+- Code a game with the superpowers API and TypeScript
+    - Sup.Actor
+    - Sup.Input
+    - Sup.ArcadePhysics2D.Body (Sup.ArcadeBody2D)
+    - Sup.getActor( string ).getChild( string )
+    - Sup.Math.Ray
+    - Audio.playsound
+    - Sup.loadScene
 
 [1]:https://github.com/mseyne/superpowers-tutorials
