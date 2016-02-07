@@ -21,9 +21,9 @@ would help to improve this tutorials aimed to the Superpowers community.
 
 ## Summary
 
-1. [Introduction and Plan the game](ch1.md)
+1. [Introduction and Plan the game](ch1.md#chapter-1--introduction-and-plan-the-game)
     * [Introduction to game development](ch1.md#chapter-1--introduction-and-plan-the-game)
-    * [Plan of our game](/ch1.md#plan-the-game)
+    * [Plan of our game](ch1.md#plan-the-game)
 2. Preparing Superpowers
     * Building project structure
     * Loading Game Assets
