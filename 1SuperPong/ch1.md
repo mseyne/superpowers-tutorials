@@ -34,4 +34,4 @@ We will build the game without computer artificial intelligence, meaning than we
 
 *(I will do others tutorials later that add IA to this game and others)*
 
-[1] : https://en.wikipedia.org/wiki/Pong
+[1]: https://en.wikipedia.org/wiki/Pong
