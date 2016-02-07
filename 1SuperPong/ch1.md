@@ -17,7 +17,7 @@ Ok let's make a first game.
 
 We will make [Pong][1], two player trying to catch a ball and earn point if the other player fail to catch it back.
 
-![pong.png](img/pong.png))
+![pong.png](img/pong.png)
 
 Pong is a kind of symbol in the young video game history, as it is one of the first graphical video game.
 I think it is also a nice starter for learning the basics of Superpowers.
