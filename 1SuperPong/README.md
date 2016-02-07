@@ -1,4 +1,4 @@
-# SUPERPOWERS TUTORIAL #1
+# SUPERPOWERS TUTORIAL #1 SUPER PONG
 ## *Start to learn game development with PONG*
 *Tutorial series : How to learn to make video games by using Superpowers #1.*
 

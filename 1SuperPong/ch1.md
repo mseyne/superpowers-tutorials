@@ -1,4 +1,4 @@
-# SUPERPOWERS TUTORIAL #1
+# SUPERPOWERS TUTORIAL #1 SUPER PONG
 ## *Chapter 1 : Introduction and Plan the game*
 
 ## Introduction to the new comer who dream to become game developer
@@ -22,7 +22,9 @@ We will make [Pong][1], two player trying to catch a ball and earn point if the 
 Pong is a kind of symbol in the young video game history, as it is one of the first graphical video game.
 I think it is also a nice starter for learning the basics of Superpowers.
 
-Our game will have the following features than we will build step by step :
+You can [play the game here][2] if you want to see what we will do.
+
+Our game will have the following features than we will build step by step:
 
 * A table background, in which the game take place.
 * Two paddles than each player can control on keyboard.
@@ -35,3 +37,4 @@ We will build the game without computer artificial intelligence, meaning than we
 *(I will do others tutorials later that add IA to this game and others)*
 
 [1]: https://en.wikipedia.org/wiki/Pong
+[2]: http://mseyne.itch.io/pong
