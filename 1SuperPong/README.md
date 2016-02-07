@@ -39,6 +39,7 @@ would help to improve this tutorials aimed to the Superpowers community.
     * Add sound effect.
     * Finishing the game.
 5. Final recommendations about this tutorials series
+    * Complete Game Source Reference
 
 ## What we will learn in this tutorial
 
