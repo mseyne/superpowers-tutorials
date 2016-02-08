@@ -1,7 +1,7 @@
 # SUPERPOWERS TUTORIAL #1 SUPER PONG
 ## *Chapter 1 : Introduction and Plan the game*
 
-## Introduction to the new comer who dream to become game developer
+### Introduction to the new comer who dream to become a game developer
 
 We are going to build a Pong game, it is a simple game that will be an opportunity for us to discover superpowers as a empowering tool to build video games. It is a first step that can seem simple, but understanding this first step of what is game development is really important before to go on the next step and build our next game, and even to continue after that to do many game in an iterative process until we build this wonderful game we have in the mind and want to bring to life.
 
@@ -13,7 +13,7 @@ I know than game development can be impressive from the point of view of the new
 
 Ok let's make a first game.
 
-## Plan the game
+### Plan the game
 
 We will make [Pong][1], two player trying to catch a ball and earn point if the other player fail to catch it back.
 
