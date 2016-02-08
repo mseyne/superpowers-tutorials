@@ -170,7 +170,8 @@ The game have sounds.
 
 ### Adding an end to the game
 
-To polish the game we could create a new scene victory which display the player who won on the screen. We would need to load this scene when the number of point reach a maximum.
+To polish the game we could create a new scene victory which display the player
+who won on the screen. We would need to load this scene when the number of point reach a maximum.
 But here, we will just return to the menu screen when one player get 10 points.
 
 We need to add a condition at the end of the loop update.
