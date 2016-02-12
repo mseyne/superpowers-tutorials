@@ -45,8 +45,8 @@ Here the properties for each actors :
 * Camera, position (0, 0, 4), mode = Orthigraphic, Orthographic Scale = 3 (the camera should fit with the image title.png)
 * Title, position(0, 0, 0), sprite = MenuSprites/title
 * Button, position(0, -1, 2), sprite = MenuSprites/startoff
-* Info1, position(-1.2, -1, 0), Text = Player 1 Z / S, color = f14735 , size = 32
-* Info2, position(1.2, -1, 0), Text = Player 2 Up / Down, color = f14735 , size = 32
+* Info1, position(-1.2, -1, 0), Text = Player 1 W / S, color = f14735 , size = 32
+* Info2, position(1.2, -1, 0), Text = Player 2 Up / Down, color = 356ef1 , size = 32
 
 We have now our menu with game instructions. We only need to have a functional button. We start programming it.
 

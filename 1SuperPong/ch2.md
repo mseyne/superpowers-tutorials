@@ -145,8 +145,8 @@ for the collision between the ball and the paddles.
 
 In our Game Scene, we need to gave new component **Arcade Body 2D** to both of our Paddles and to our Ball.
 
-We then change for both paddles the size of x to 0.2 (size = 0.2, 0) and for the ball
-the size of x and y to 0.2  (size = 0.2, 0.2) in a way than the body do the same size than our sprite.
+We then change for both paddles the size of x to 0.2 and keep y to 1 (size = 0.2, 1) and for the ball
+the size of x and y to 0.2  (size = 0.2, 0.2) in a way than the bodies do the same size than our sprites.
 
 In the game the illusion is than the sprite ball will collide with the sprite paddle,
 in reality, it is the ball physic body and the paddles physic bodies that will collide.
