@@ -80,14 +80,15 @@ update() {
     let y : number = this.actor.getY() ;
 
     // if the key W is pressed and y < to max, the velocity of the body is set in motion with speed
-    if(Sup.Input.isKeyDown("W")){
+    if(Sup.Input.isKeyDown("W") && y < 2.35){
       this.pad.setVelocityY(this.speed);
     }
     // if the key S is pressed and y > to min, the velocity of the body is set in motion with negative speed
-    else if(Sup.Input.isKeyDown("S")){
+    else if(Sup.Input.isKeyDown("S") && y > -2.35){
       this.pad.setVelocityY(-this.speed);
     }
-    else{ // in other situations the velocity of the body is set to 0
+    // in other situations the velocity of the body is set to 0
+    else{
       this.pad.setVelocityY(0);
     }
 
