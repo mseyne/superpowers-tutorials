@@ -158,7 +158,7 @@ class Paddle1Behavior extends Sup.Behavior {
     let y : number = this.actor.getY();
 
     // if the key is pressed and y < to max, the velocity of the body is set in motion with speed
-    if(Sup.Input.isKeyDown("Z") && y < 2.35){
+    if(Sup.Input.isKeyDown("W") && y < 2.35){
       this.pad.setVelocityY(this.speed);
     }
     // if the key is pressedand y > to min, the velocity of the body is set in motion with negative speed
