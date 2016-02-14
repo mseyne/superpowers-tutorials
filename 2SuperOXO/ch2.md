@@ -39,13 +39,13 @@ unHover, isHover, cross and circle. We use animation with only 1 frame each as w
 this tool to switch from one to an other in the game but we won't use animated sprites as a feature.
 
 
-![symbols.png](symbols.png)
+![symbols.png](img/symbols.png)
 
 
 We do the same with the Screens Sprite, we have 3 frames, cross, circle and tie.
 
 
-![screens.png](screens.png)
+![screens.png](img/screens.png)
 
 
 We have now this configuration for each sprites :
