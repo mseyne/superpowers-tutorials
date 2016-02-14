@@ -23,7 +23,7 @@
     * [Add sound effect](ch4.md#adding-sound)
     * [Finishing the game](ch4.md#adding-an-end-to-the-game)
 5. [Complete Game Source Reference](ch5.md#chapter-5--complete-game-source-reference)
-    * [Learning game development](ch5.md#the-first-step-and-the-last-step)
+    * [Learning game development](ch5.md#final-considerations-about-the-tutorials-and-the-learning-process-of-making-video-games)
     * [Complete Game Source Reference](ch5.md#complete-game-source-reference)
 
 ### What we will learn in this tutorial
