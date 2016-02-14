@@ -1,7 +1,7 @@
 # SUPERPOWERS TUTORIAL #1 SUPER PONG
 ## *Chapter 5 : Complete Game Source Reference*
 
-###  Final considerations about the tutorials and the learning process of making video games
+###  Final considerations about the learning process of making video games
 
 When you finish this tutorial, you maybe think than you still don't know how to make a Pong game,
 than you just copied what the tutorial said. Well, you are not really right and you are not really wrong.
