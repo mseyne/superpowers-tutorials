@@ -29,8 +29,8 @@ Here the minimum viable game (MVG) features we want :
 * A simple computer artificial intelligence checking the game board to decide how to play against the player.
 * A function that find out if the player or the computer won, or if the game is a tie.
 
-*Note about the video game history : Built in 1952, [OXO](https://en.wikipedia.org/wiki/OXO)
-is the first graphical known video game, the game was not made public and was only
-intended for academic research purposes.*
+*Note about the video game history : Built in 1952,* [OXO][2] *is the first graphical
+known video game, the game was not made public and was only intended for academic research purposes.*
 
 [1]: https://en.wikipedia.org/wiki/Tic-tac-toe
+[2]: https://en.wikipedia.org/wiki/OXO
