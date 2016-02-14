@@ -3,12 +3,12 @@
 
 ### Summary
 
-1. Introduction
-   * Plan the game
-   * MVG Features
-2. Building the Game Structure
-   * Load Game Assets
-   * Build Game Scene
+1. [Introduction](ch1.md#chapter-1--introduction)
+   * [Planning the game](ch1.md#planning-the-game)
+   * [MVG Features](ch1.md#mvg-features)
+2. [Building the Game Structure](ch2.md#chapter-2-building-the-game-structure)
+   * [Loading the game assets](ch2.md#loading-game-assets)
+   * [Building the game scene](ch2.md#building-the-game-scene)
 3. Writing the Player actions, Game logic part 1
    * Setting global script
    * Scripting Mouse Behavior
