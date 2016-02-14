@@ -1,7 +1,7 @@
 # SUPERPOWERS TUTORIAL #1 SUPER PONG
-## *Chapter 5 : Final considerations about the tutorials and the learning process of making video games*
+## *Chapter 5 : Complete Game Source Reference*
 
-### The first step and the last step
+###  Final considerations about the tutorials and the learning process of making video games
 
 When you finish this tutorial, you maybe think than you still don't know how to make a Pong game,
 than you just copied what the tutorial said. Well, you are not really right and you are not really wrong.
@@ -42,6 +42,8 @@ See you soon if you decide you want to continue the adventure of game developmen
 * menu/title.png
 * menu/starton.png
 * menu/startoff.png
+* scripts/ball.ts
+* scripts/paddles.ts
 
 **Project Assets Structure :**
 
