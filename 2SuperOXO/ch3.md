@@ -20,7 +20,7 @@ to each of this squares through the program. For this we will build a **SQUARES 
  which will be a container for our board datas and an important indicator
 about the state of all the squares of the board.
 
-Note : an Array is a list of data in JavaScript.
+*Note : an Array is a list of data in JavaScript.*
 
 We initialize the constant SQUARES by writing in the beginning of our Global script :
 
@@ -173,7 +173,7 @@ will take the program according to the parameter action.
 [...]
 ```
 
-Note : The 3 Sup.log() ; are used to check our method, we will replace them afterwards.
+*Note : The 3 Sup.log() ; are used to check our method, we will replace them afterwards.*
 
 We can't test our game right now, we need to write first the conditions that check
 the behavior of the mouse before to call the mouse method.
@@ -305,8 +305,8 @@ Here we add in the awake method of the Player script :
   [...]
 ```
 
-Note : Later we will remove this line of code and change it by a function that
-choose randomly who from the player or the computer, start the game.
+*Note : Later we will remove this line of code and change it by a function that
+choose randomly who from the player or the computer, start the game.*
 
 Now we want to be able to give permission to the player to play if he have the
 right or block him if it is the computer turn. We do this by adding a condition

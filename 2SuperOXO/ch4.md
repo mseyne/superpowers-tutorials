@@ -57,8 +57,8 @@ const VICTORIES = [
 […]
 ```
 
-Note : It is an Array of arrays, each array is a victory line and give the three
-index position of each square to get to be victorious.
+*Note : It is an Array of arrays, each array is a victory line and give the three
+index position of each square to get to be victorious.*
 
 Now we can start to write in code our algorithm. What we want first is a function
 that check the board and return datas that could be used to take a decision.
