@@ -10,8 +10,8 @@
    * [Loading the game assets](ch2.md#loading-game-assets)
    * [Building the game scene](ch2.md#building-the-game-scene)
 3. Writing the Player actions, Game logic part 1
-   * Setting global script
-   * Scripting Mouse Behavior
+   * Setting the global script
+   * Scripting th mouse behavior
    * A turn based game
 4. Writing the Computer response, Game logic part 2
    * Algorithm of a simple computer AI

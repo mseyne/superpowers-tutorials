@@ -1,5 +1,5 @@
 # SUPERPOWERS TUTORIAL #2 SUPER OXO
-## *Chapter 2, Building the Game Structure*
+## *Chapter 2 : Building the Game Structure*
 
 Before to write the game logic, we will use Superpowers to prepare everything we will need for our game to display correctly.
 
