@@ -65,7 +65,7 @@ following of the global variables :
 [...]
 namespace Game{
 
-  //we define and export the function setSquare
+  // define and export the function setSquare
   export function setSquares(){
 
     /*
@@ -74,6 +74,7 @@ namespace Game{
     1 : default string value of situation : "unHover"
     */
 
+    // define a local addSquare function
     function addSquare(index){
       // get the name of current square
       let name = "Square" + index.toString();
