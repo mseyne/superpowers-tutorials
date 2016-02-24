@@ -17,8 +17,7 @@ We write a function **checkLevel** in our Main script, in the Game namespace :
     We check all the level for the crates and targets positions.
     We then compare if the position of crates and targets match, if all crate are on target, the level is won.
     */
-
-    // add all vector of crates and end position in the game and compare them together, if the all equal, the game is finished
+    
     let boxesNumber : number = 0;
     let boxesPositions = [];
     let targetsPositions = [];

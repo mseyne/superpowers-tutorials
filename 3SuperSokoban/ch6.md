@@ -1,5 +1,5 @@
-SUPERPOWERS TUTORIAL #3 : Super SOKOBAN
-Chapter 6 : Complete Game Source Reference
+# SUPERPOWERS TUTORIAL #3 : SUPER SOKOBAN
+## *Chapter 6 : Complete Game Source Reference*
 
 
 ### Assets files
@@ -107,10 +107,10 @@ namespace Game{
 
     /*
     We check all the level for the crates and targets positions.
-    We then compare if the position of crates and targets match, if all crate are on target, the level is won.
+    We then compare if the position of crates and targets match,
+    if all crate are on target, the level is won.
     */
 
-    // add all vector of crates and end position in the game and compare them together, if the all equal, the game is finished
     let boxesNumber : number = 0;
     let boxesPositions = [];
     let targetsPositions = [];
