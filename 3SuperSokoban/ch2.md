@@ -83,7 +83,7 @@ like we will se later, the tiles of our game world.
     * right (frame 2, 2)
     * left (frame 3, 3)
 
-![character.png](imgl/character.png)
+![character.png](img/character.png)
 
 
 ### Tiles and level mapping
@@ -186,8 +186,8 @@ We can launch the game to check if everything display correctly.
 We add also, as childs of the Level actor, two new actors, Reset and Next, to
 which we attache new Component Sprite Renderer with the sprites of the same name.
 
-Reset actor position (8, 0.5, 4)
-Next actor position (8, 6, 4)
+* Reset actor position (8, 0.5, 4)
+* Next actor position (8, 6, 4)
 
 For the Next actor, we set the default animation to next.
 
