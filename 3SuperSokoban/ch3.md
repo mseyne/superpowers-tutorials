@@ -171,7 +171,7 @@ position. We now want our player to be able to move and interact in the level.
 
 ### Player movement and world interaction
 
-We do this in two part, we first need to build a custom method than we called move
+We do this in two part, we first need to build a custom method than we call move
 which take coordinates as parameters and is executed when a movement key is pressed.
 This method will contain the condition we need to check for the player interaction with the world.
 
