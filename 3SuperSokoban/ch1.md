@@ -1,9 +1,9 @@
 # SUPERPOWERS TUTORIAL #3 : SUPER SOKOBAN
-## *Chapter 1 : Introduction*
+## *Chapter 1 : Plan the game*
 
-### Plan the game
+### Introduction
 
-In this tutorial we will learn to make a [Sukoban Game][1],
+In this tutorial we will learn to make a [Sukoban Game][1].
 
 ![sokoban.png](img/sokoban.png)
 
@@ -45,8 +45,8 @@ in details and finally, I recommend you do it a third time from scratch without
 looking at the tutorial only as a reference when you are blocked, facing the
 problems by yourself and solving them is the best way to learn and keep in long
 term memory the process of game making and progamming. It is how I conceive learning
-video game development for this tutorial series, my philosophy : learn by doing it
-three times, deeper each time. :-)
+video game development for this tutorial series, my philosophy : **learn by doing it
+three times, deeper each time**. :-)
 
 [1]: https://en.wikipedia.org/wiki/Sokoban
 [2]: http://sokoban.info/

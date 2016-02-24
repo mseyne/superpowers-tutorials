@@ -5,10 +5,10 @@
 
 ### Summary :
 
-1. Planning the game
-  * Game introduction
-  * Features for a minimum viable game
-  * Advices about learning game development
+1. [Planning the game](ch1.md#chapter-1-plan-the-game)
+  * [Game introduction](ch1.md#introduction)
+  * [Features for a minimum viable game](ch1.md#features-we-need-for-a-minimal-viable-game)
+  * [Advices about learning game development](ch1.md#advices-about-the-learning-process-for-game-development)
 2. Shaping the game structure
   * Settings
   * Loading assets
