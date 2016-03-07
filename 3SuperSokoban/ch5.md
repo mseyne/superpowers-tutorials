@@ -36,21 +36,21 @@ Here the updated function :
     mapSaved = [];
     playerPosition.x = 0, playerPosition.y = 0;
 
-    for(let row = 0; row < 12; row++){
-      for(let column = 0; column < 16; column++){
+    for(let column = 0; column < 12; column++){
+      for(let row = 0; row < 16; row++){
 
-        // get the tile for x = column and y = row positions
-        let actorTile = level.getTileAt(Layers.Actors, column, row);
+        // get the tile for x = row and y = column positions
+        let actorTile = level.getTileAt(Layers.Actors, row, column);
 
         // Add the tile to the array
         mapSaved.push(actorTile);
 
         if(actorTile === Tiles.Start){
           // remove the Start tile and replace with empty tile
-          level.setTileAt(Layers.Actors, column, row, Tiles.Empty);
+          level.setTileAt(Layers.Actors, row, column, Tiles.Empty);
 
           // set position to x, y on level map
-          playerPosition.add(column, row);
+          playerPosition.add(row, column);
         }
       }
     }
@@ -69,9 +69,9 @@ Now, inside the Game namespace of the main Script, we add a resetLevel function.
     let index : number = 0;
 
     // set all the actor tiles of the current level to the savedMap tile
-    for(let row = 0; row < 12; row++){
-      for(let column = 0; column < 16; column++){
-        level.setTileAt(Layers.Actors, column, row, mapSaved[index]);
+    for(let column = 0; column < 12; column++){
+      for(let row = 0; row < 16; row++){
+        level.setTileAt(Layers.Actors, row, column, mapSaved[index]);
         index++
       }
     }

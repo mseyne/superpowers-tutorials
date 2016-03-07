@@ -22,16 +22,16 @@ We write a function **checkLevel** in our Main script, in the Game namespace :
     let boxesPositions = [];
     let targetsPositions = [];
 
-    for(let row = 0; row < 12; row++){
-      for(let column = 0; column < 16; column++){
+    for(let column = 0; column < 12; column++){
+      for(let row = 0; row < 16; row++){
 
-        // Take the tiles from two layers to coordinates column and row
-        let actorTile = level.getTileAt(Layers.Actors, column, row);
-        let worldTile = level.getTileAt(Layers.World, column, row);
+        // Take the tiles from two layers to coordinates row and column
+        let actorTile = level.getTileAt(Layers.Actors, row, column);
+        let worldTile = level.getTileAt(Layers.World, row, column);
 
         // If the actor tile is a box, keep the position
         if(actorTile === Tiles.Crate || actorTile === Tiles.Packet){
-          let position = new Sup.Math.Vector2(column, row);
+          let position = new Sup.Math.Vector2(row, column);
           boxesPositions.push(position);
 
           // we count the total number of crate
@@ -40,7 +40,7 @@ We write a function **checkLevel** in our Main script, in the Game namespace :
 
         // If the world tile is a target, keep the position
         if(worldTile === Tiles.Target){
-          let position = new Sup.Math.Vector2(column, row);
+          let position = new Sup.Math.Vector2(row, column);
           targetsPositions.push(position);
         }
       }
