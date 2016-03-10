@@ -30,9 +30,9 @@ We create new assets, 4 Sprites, 3 Sounds and 2 Scripts, we add also a Font asse
     * Ball
     * Paddles
 * GameSounds
-    * Tac
-    * Toc
-    * Tada
+    * tac
+    * toc
+    * tada
 * Font
 
 ![settingassets.png](img/settingassets.png)
