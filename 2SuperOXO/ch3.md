@@ -102,7 +102,7 @@ To do this correctly, in Game Scene we add a **new component Behavior** to the B
 We attach then attach the **class PlayerBehavior** from our script Player.
 
 
-![behavior.png][img/behavior.png]
+![behavior.png](img/behavior.png)
 
 
 This PlayerBehavior class will initialize (awake) after the scene is loaded, we
@@ -192,7 +192,7 @@ We write our update loop  :
     // Refresh the ray casting to the mouse position inside the camera screen
     ray.setFromCamera(Sup.getActor("Camera").camera, Sup.Input.getMousePosition());
 
-    // Create a new empty variable that will as vallue the differents array of the SQUARES constant
+    // Create a new empty variable that will as value the differents array of the SQUARES constant
     let array;
 
     /*
@@ -230,7 +230,7 @@ We write our update loop  :
       else if(array[1] == "isHover"){
         // if true, set the square new situation to unHover
         array[1] = "unHover";
-        // and call the local mouse method with the action click and the related square actor
+        // and call the local mouse method with the action unHover and the related square actor
         this.mouse("unHover", array[0]);
       }
     }
