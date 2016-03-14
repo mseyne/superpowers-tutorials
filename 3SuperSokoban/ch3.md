@@ -26,8 +26,8 @@ const LEVELS = {
 
 // List the map layers
 enum Layers{
-      Actors = 0,
-      World = 1
+      World = 0,
+      Actors = 1
      };
 
 // List the map tiles
