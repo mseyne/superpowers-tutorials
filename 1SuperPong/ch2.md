@@ -108,7 +108,7 @@ We create a new component **Text Renderer** for each of the Score Actors and we 
 and drop the Font in the Font area. We write 0 to the Text area.
 
 *Note : When the project become bigger, there is the possibility to duplicate Actors
-to avoid repetition, but like we are learning, repetition of this step is important.*
+to avoid repetition, but as we are learning, repetition of this step is important.*
 
 We have everything inside the scene now.
 
@@ -137,8 +137,7 @@ Here the hexadecimal colors codes :
 
 Ok, all the Actors are placed, we can launch the game to see if everything display correctly.
 Right now, nothing will happen beside the display and it is normal. We need to start
-programming the logic of our game to have some interaction. However a last step before to
-jump in the code is to set the Physic Bodies to our sprites, we will need this solid bodies
+programming the logic of our game to have some interaction. However a last step before jumping in the code is to set the Physic Bodies to our sprites, we will need these solid bodies
 for the collision between the ball and the paddles.
 
 ### Setting Arcade Bodies
