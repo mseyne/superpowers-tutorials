@@ -6,8 +6,9 @@
 * 3# Super Sokoban [Tutorial](3SuperSokoban) - [Source Assets][8] - [Source Project][9] - [Play the game][10]
 * 4# Super Asteroids and Super Spacewar :  
 [Tutorial on Github][15] - [Read on Gitbook][11] - [Source Assets][12] - [Source Project][13] - [Play the game][14]
-* 5# Super Pacman :
-[Tutorial on Github][] - [Read on Gitbook][] - [Source Assets][] - [Source Project][] - [Play the game][]
+* 5# Super Pacman :  
+[Tutorial on Github][16] - [Read on Gitbook][17] - [Source Assets][18] - [Source Project][19] - [Play the game][20]
+
 [Peer Production Licence][1]
 
 [1]: http://p2pfoundation.net/Peer_Production_License
@@ -25,3 +26,8 @@
 [13]: https://github.com/mseyne/superpowers-projects/tree/master/4SuperAsteroids
 [14]: https://mseyne.itch.io/super-asteroids-and-super-spacewar
 [15]: https://github.com/mseyne/super-asteroids-super-spacewar
+[16]: https://github.com/mseyne/super-pacman/tree/master/en
+[17]: https://mseyne.gitbooks.io/super-pacman/content/en/index.html
+[18]: https://github.com/mseyne/superpowers-sources/tree/master/5SuperPacman
+[19]: https://github.com/mseyne/super-pacman-project
+[20]: https://mseyne.itch.io/super-pacman
