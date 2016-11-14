@@ -3,27 +3,27 @@
 
 ###  Final considerations about the learning process of making video games
 
-When you finish this tutorial, you maybe think than you still don't know how to make a Pong game,
+When you finish this tutorial, you maybe think that you still don't know how to make a Pong game,
 than you just copied what the tutorial said. Well, you are not really right and you are not really wrong.
- If you understood a bit the steps, then take a deep breath, believe in yourself and
+ If you understood the steps a bit, then take a deep breath, believe in yourself and
  start to remake it from scratch without looking the tutorial. Remaking it again using your own memory
  will help you to deeper the steps in your memory and have a clearer understanding of what you are doing.
 
 Following the tutorial with little understanding is the first step of the learning process
-and your adventure continue as your exploration go deeper, you need now to face alone a blank project
-and start the Pong game again. If you are stuck, you can peek the tutorial for clue and continue by yourself,
-it is good you use the tutorial like a documentation or a reference because what is important is you can
-understand each steps and go through them by yourself as you understand better the whole process.
-All the others game from next tutorial and building games in the future is just about adding complexity
-and features, crafting slowly worlds than player can explore and have fun with.
+and as your adventure continues and your exploration go deeper, you need now to face alone a blank project
+and start the Pong game again. If you are stuck, you can peek at the tutorial for clues and continue by yourself.
+It is good to use the tutorial like documentation or a reference because what is important is that you can
+understand each step and go through them by yourself as you understand the whole process more.
+All the other games from the next tutorial and building games in the future is just about adding complexity
+and features, slowly crafting worlds that player can explore and have fun with.
 
 Even if you have built Pong and understood the steps without looking too much at the tutorial, you maybe don't know what to do next.
 If you want to go to the next step of your adventure in game development, you can start to build a new game
-by your own, read code of others or follow an other tutorial and follow it until you understand it. And continue
+on your own, read code of others or follow another tutorial and follow it until you understand it. And continue
 this way until you feel comfortable enough with Superpowers and programming with TypeScript.
 
 The purpose of this series is to propose more complex tutorials as we advance to help us to learn how to climb this big mountain
-until we feel strong enough to build by ourself this fantastic, challenging and emotionally rich video games.
+until we feel strong enough to build by ourselves this fantastic, challenging and emotionally rich video games.
 
 See you soon if you decide you want to continue the adventure of game development with Superpowers.
 
