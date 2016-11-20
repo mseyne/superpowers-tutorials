@@ -6,24 +6,24 @@
 If you don't know nothing about Programming in Javascript (which TypeScript is based on)
 you will maybe need to look at a tutorial to have a first idea (like the track JavaScript on Khan Academy).
 Don't worry, coding/programming is not as difficult as we could imagine, it is about
-solving real problems with logic and not much about abstraction, it is important to don't
+solving real problems with logic and not much about abstraction. It is important to not
 go fast and take the time to understand basic concepts. You could feel it is really
 slow and abstract to get a really simple thing, but it will go faster and more concrete
-as you understand by practicing this steps. (The frustration come often when we try
-  to do something we wasn't prepared to do)
+as you understand by practicing this steps (the frustration comes often when we try
+  to do something we aren't prepared to do).
 
-However you can continue the tutorial and try to understand the basics by jumping
+However you can continue the tutorial and try to understand the basics by jumping in 
 right now and copying the code below in Superpowers, by repetition and practice alone,
 exploring and testing, making mistakes and repairing them (which we call debugging,
 a fundamental concept in programming, where errors and mistakes are not to be avoid
-but understood) slowly but confidently, you will do amazing progress.
+but understood) slowly but confidently, you will make amazing progress.
 
 ### Scripting the paddles behaviors
 
-We can now start to code the logic of our game, we will start to implement the movement of the paddles.
+We can now start to code the logic of our game, starting by implementing the movement of the paddles.
 
-In our folder GameScripts, we will start to code in the script Paddles. You will have a default script,
-we remove all and we write instead this template :
+In our folder GameScripts, we will start to code in the script Paddles. You will have a default script, but
+let's remove it all and write this template instead:
 
 ```TypeScript
 class Paddle1Behavior extends Sup.Behavior {
@@ -44,7 +44,7 @@ Sup.registerBehavior(Paddle1Behavior);
 Sup.registerBehavior(Paddle2Behavior);
 ```
 
-We will work in the first Class Paddle1Behavior, the second Class Paddle2Behavior will be almost the same.
+We will work in the first Class Paddle1Behavior, and the second Class Paddle2Behavior will be almost the same.
 
 We define variables for the Class, **pad** which will be a connection to the body of our
 scene and a number **speed**. We write under the Class line :
@@ -96,16 +96,16 @@ update() {
 […]
 ```
 
-To try our script we need to attach it to our Actor in the Scene. In the paddle of
-player1 with create a new component **Behavior** and we choose the class Paddle1Behavior.
+To try our Behavior we need to attach it to our Actor in the Scene. In the Paddle of
+player1 create a new component **Behavior** and choose the class Paddle1Behavior.
 
 ![behavior.png](img/behavior.png)
 
 We can now start our program and we should be able to see the paddle moving up and
 down with the key W and S.
 
-We can copy our code for the second Paddle in the Class Paddle2Behavior, but instead
-of W and S we change the Sup.Input.isKeyDown to 'UP' and 'DOWN'.
+We can copy our code into the Class Paddle2Behavior, but instead
+of W and S we change the Sup.Input.isKeyDown to 'UP' and 'DOWN'. We will use this for the second paddle.
 
 In the same way than before, we attach the script in the Scene Game to the paddle of player 2.
 (new component>Behavior), we choose the class Paddle2Behavior.
@@ -117,8 +117,7 @@ We can now start to code the movements of the ball in the asset script Ball in t
 GameScripts. This Script will be contain more than the script paddles because we will
 write the collisions and the scores systems inside the same Class.
 
-We can remove from the default template the start method than we won't use in
-this game, we should have now as a starter script :
+We won't use the start method, so we can remove it from the default template. We should now have now as a starter script:
 
 ```TypeScript
 class BallBehavior extends Sup.Behavior {
@@ -129,10 +128,10 @@ class BallBehavior extends Sup.Behavior {
 }
 Sup.registerBehavior(BallBehavior);
 ```
-Because our ball will have accelerations, we can add now the default speed, which
-will be a constant than we will refer to. We put our constant out of the main Class,
-in won't matter in this game, but in other game, this constant could be then used in
-other Class of the game, it is a good habit to get used to.
+Because our ball will have acceleration we can now add the default/starting speed, which
+will be a constant that we will refer to. We put our constant outside of the main Class -
+in won't matter in this game, but in other games, this constant could be then used in
+other Classes of the game, so it is a good habit to get used to.
 
 ```TypeScript
 const BALLSPEED : number = 0.05 ;
@@ -140,13 +139,12 @@ class BallBehavior extends Sup.Behavior {
 […]
 ```
 
-We had now in our call BallBehavior our variables, one for the speed of the ball
-which will accelerate, starting from our constant BALLSPEED, one Array which contain
-both scores of player1 and player2 and two variables that will be flags positive or
-negative which will give us the direction of the ball, by example if the ball go up
-and touch the up side of the game table, the variable will take the oposite value,
-telling us than the ball take the oposite direction.
+We will now add our variables to BallBehavior:
 
+  * one for the speed of the moving ball, starting from our constant BALLSPEED (it will accellerate)
+  * one Array which contain both scores of player1 and player2
+  * two variables that will be flags positive or
+negative which will give us the x/y direction of the ball (for example if the ball goes up and touches the up side of the game table, the variable will take the oposite value, telling us than the ball should move in the oposite direction)
 
 ```TypeScript
 […]
@@ -164,17 +162,14 @@ class BallBehavior extends Sup.Behavior {
 
 We write different conditions for different cases :
 
-1. If the ball touch the up and down sides of the table, the ball change of direction
-on y axis and continue to move on the same x axis. We will just check a condition and if true, change the variable dy.
+1. If the ball touches the up or down sides of the table, the ball will  direction the on y axis and continue to move on the same x axis. We will  check a condition and if true, change the variable **dy**.
 
-2. If the ball collide with the paddles, the ball take a little acceleration and go in
-the opposite direction on x axis while stay the same on y axis (if the ball collide with left and right side of the paddle).
+2. If the ball collides with the paddles, the ball take a little acceleration and goes in
+the opposite direction on the x axis while stay the same on y axis (if the ball collides with left or right side of the paddle).
 We will use the **Sup.ArcadePhysics2D.collides** method to check if the Physics Bodies
-of the ball and the paddles collides together. And a second check of the side of the ball collision with the method **getTouches**.
+of the ball and the paddles collides together. We will also have a second check of the side of the ball collision with the method **getTouches**.
 
-3. If the ball touch the right and left side (when the paddle miss the ball), a
-score is made for the player who made the goal (we will see this point a bit later),
- the ball return to the center and take back the default speed.
+3. If the ball touches the right or left side (when the paddle misses the ball), a score is made for the player who made the goal (we will see this point a bit later), and the ball returns to the center and resumes with the default speed.
 
 Ok, now we write the behavior of the ball inside the loop method update.
 
@@ -231,19 +226,17 @@ Ok, now we write the behavior of the ball inside the loop method update.
 ```
 
 
-To see the script in action we need, in the same way than before, to attach the
+To see the script in action we need to do the same thing we did to test the paddles: attach the
 script Ball in the Scene Game to the Actor Ball. (new component>behavior, class = BallBehavior)
 
 We should have now a game working nicely.
 
+### Scoring system
 
-### Score system
-
-We will now add a simple system of score. What we want is that player who get the
-ball in the other camp mark one point. The score increment of one.
+We will now add a simple scoring system. What we want is that player who gets the ball in the other camp scores one point (the score increments by one).
 
 To do so, we add two conditions at the end of our class BallBehavior, one for the
-case the ball touche the side of player 1 and one for the side of player 2.
+case that the ball touches the side of player 1 and one for the side of player 2.
 
 We use then the **textRenderer** method to change the display of the score that we connect with
 the method getActor('Player1').getChild('Score') for the score of player 1 and getActor('Player2').getChild('Score')
@@ -269,4 +262,4 @@ for the score of player 2.
 Sup.registerBehavior(BallBehavior);
 ```
 
-The game logic is finished, we just need to polish a bit before release but we have now our game.
+The game logic is finished, we just need to polish it a bit before release - but now we have our game.
