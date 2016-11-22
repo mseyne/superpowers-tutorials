@@ -9,7 +9,7 @@ Don't quit with the first difficulties or mistakes (which in fact are really imp
 
 Making game can be really difficult and game developers succeed not because they are different than you but mainly because they engage a LOT of time in it, they are building their skills step by step, do a lot (a LOT) of mistakes and they don't have the belief they won't be able to learn something new from them, oh and also they enjoy a lot the simple process of building games because just focusing on the end result can be really frustrating and tiresome. Focus on now, the future take care of itself.
 
-I know than game development can be impressive from the point of view of the newcomer who looks behind the scene of games they like to play. But believe me, this impressiveness is an illusion built by a huge amount of time and dedication. Don't lose time thinking you aren't able to do the same, step up to become game developer right now if it is what your dream is about.
+I know that game development can be impressive from the point of view of the newcomer who looks behind the scene of games they like to play. But believe me, this impressiveness is an illusion built by a huge amount of time and dedication. Don't lose time thinking you aren't able to do the same, step up to become game developer right now if it is what your dream is about.
 
 Ok, let's make a first game.
 
