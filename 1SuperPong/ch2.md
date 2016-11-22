@@ -15,7 +15,7 @@ In **Settings**, put Game in the **Startup Scene** (drag and drop or write Game)
 We'll create a hierarchy structure for our assets, putting sprites files inside
 GameSprites, sounds in GameSounds and scripts in GameScripts.
 
-We'll create new assets, 4 Sprites, 3 Sounds and 2 Scripts, and also add a Font asset. You can leave the asstes empty for now, we'll add their content below.
+We'll create new assets, 4 Sprites, 3 Sounds and 2 Scripts, and also add a Font asset. You can leave the assets empty for now, we'll add their content below.
 
 *Note: The order of your assets and folders does not matter.*
 
