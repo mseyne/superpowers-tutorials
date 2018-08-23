@@ -185,3 +185,5 @@ if(this.score[0] == 10 || this.score[1] == 10){
 ```
 
 The game is now complete.
+
+Finally: [Complete Game Source Reference](ch5.md#chapter-5--complete-game-source-reference) 
