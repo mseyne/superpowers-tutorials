@@ -151,6 +151,7 @@ The sprites are just attached to them and follow the movement of the body.
 
 ![arcadebody.png](img/arcadebody.png)
 
+Next: [Programming the game logic](ch3.md#chapter-3--programming-the-game-logic)
 
 [1]: http://docs.superpowers-html5.com/en/getting-started/about-superpowers
 [2]: https://github.com/mseyne/superpowers-sources/tree/master/1SuperPong
