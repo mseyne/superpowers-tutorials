@@ -47,7 +47,7 @@ them contents (which is files for sprites and sounds and code for scripts).
 First you will need to download the source assets on [the repository github here][2].
 
 The sprites and sound assets need to be uploaded inside the project.
-For each asset, we load the related file (For example, **background.png** in asset **backgound**).
+For each asset, we load the related file (For example, **background.png** in asset **background**).
 
 After uploading the images, the sprites assets need calibration by clicking **Setup**. The **grid size** must be the same size than
 the image because we don't use frames for this game.
