@@ -263,3 +263,5 @@ Sup.registerBehavior(BallBehavior);
 ```
 
 The game logic is finished, we just need to polish it a bit before release - but now we have our game.
+
+Next: [Polishing the game](ch4.md#chapter-4--polishing-the-game) 
