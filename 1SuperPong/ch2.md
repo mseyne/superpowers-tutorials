@@ -47,7 +47,7 @@ them contents (which is files for sprites and sounds and code for scripts).
 First you will need to download the source assets on [the repository github here][2].
 
 The sprites and sound assets need to be uploaded inside the project.
-For each asset, we load the related file (For example, **background.png** in asset **backgound**).
+For each asset, we load the related file (For example, **background.png** in asset **background**).
 
 After uploading the images, the sprites assets need calibration by clicking **Setup**. The **grid size** must be the same size than
 the image because we don't use frames for this game.
@@ -151,6 +151,7 @@ The sprites are just attached to them and follow the movement of the body.
 
 ![arcadebody.png](img/arcadebody.png)
 
+Next: [Programming the game logic](ch3.md#chapter-3--programming-the-game-logic)
 
 [1]: http://docs.superpowers-html5.com/en/getting-started/about-superpowers
 [2]: https://github.com/mseyne/superpowers-sources/tree/master/1SuperPong

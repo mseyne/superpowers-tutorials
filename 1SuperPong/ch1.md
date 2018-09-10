@@ -35,5 +35,7 @@ We will build the game without computer artificial intelligence, meaning than we
 
 *(I will do others tutorials later that add AI to this game and others)*
 
+Next: [Preparing Superpowers](ch2.md#chapter-2--preparing-superpowers)
+
 [1]: https://en.wikipedia.org/wiki/Pong
 [2]: http://mseyne.itch.io/pong
